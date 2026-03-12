@@ -1,6 +1,6 @@
 import { Box, Typography, Stack } from "@mui/material";
-import { GOLD, BEIGE } from "../theme/theme";
-import logo from "../assets/logo.png";
+import { GOLD, BEIGE } from "../../theme/theme";
+import logo from "../../assets/logo.png";
 
 const SOCIALS = ["Instagram", "LinkedIn", "Houzz"];
 

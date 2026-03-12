@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Box, Typography, Grid, TextField, Button, Stack } from "@mui/material";
 import CheckIcon from "@mui/icons-material/Check";
-import { sendContact } from "../../services/api";
+import { sendContact } from "../../service/api";
 import { GOLD } from "../../theme/theme";
 
 export default function ContactForm() {

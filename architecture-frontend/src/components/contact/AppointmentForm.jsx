@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Box, Typography, Grid, TextField, Button, MenuItem, Stack } from "@mui/material";
 import CheckIcon from "@mui/icons-material/Check";
-import { createAppointment } from "../../services/api";
+import { createAppointment } from "../../service/api";
 import { GOLD } from "../../theme/theme";
 
 const PROJECT_TYPES = ["Résidentiel", "Commercial", "Public", "Intérieur"];

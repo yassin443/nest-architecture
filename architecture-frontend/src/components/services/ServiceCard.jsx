@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Box, Typography, Grid, Container } from "@mui/material";
 import Loader from "../common/Loader";
 import SectionTag from "../common/SectionTag";
-import { getServices } from "../../services/api";
+import { getServices } from "../../service/api";
 import { GOLD, BEIGE } from "../../theme/theme";
 
 export default function ServiceCard() {

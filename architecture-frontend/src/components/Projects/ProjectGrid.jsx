@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 import Loader from "../common/Loader";
 import SectionTag from "../common/SectionTag";
-import { getProjects } from "../../services/api";
+import { getProjects } from "../../service/api";
 import { BEIGE, GOLD } from "../../theme/theme";
 
 // limit    → nombre de projets à afficher (5 sur Home, tous sur la page Projects)
